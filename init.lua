@@ -1,5 +1,6 @@
+require('autoC')
 require('settings')
 require('keymaps')
 require('plugins')
 require('scripts')
-require('autoC')
+require('themes')

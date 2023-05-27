@@ -2,9 +2,7 @@ local global      = vim.g
 local opt         = vim.opt
 vim.scriptcoding  = 'utf-8'
 
-vim.cmd.colorscheme "gruvbit"
-
-vim.g.airline_theme = 'base16'
+vim.cmd.colorscheme "iceberg"
 vim.g.mapleader = " "
 
 ----------------------------------------------------------------------------

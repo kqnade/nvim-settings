@@ -18,6 +18,12 @@ return require('packer').startup(function(use)
   use 'lambdalisue/nerdfont.vim'
   use 'lambdalisue/fern-git-status.vim'
   use {'neoclide/coc.nvim', branch = 'release'}
+  use 'cocopon/iceberg.vim'
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+  use {'preservim/tagbar'}
 end)
 
 

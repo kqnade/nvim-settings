@@ -1,8 +1,23 @@
+-- PackerCompile
 vim.cmd([[
   augroup packer_user_config
     autocmd!
     autocmd BufWritePost plugins.lua source <afile> | PackerCompile
   augroup end
+]])
+
+-- highlight
+vim.cmd([[
+  highlight Normal ctermbg=none guibg=none
+  highlight NonText ctermbg=none
+  highlight LineNr ctermbg=none ctermfg=5 
+  highlight Folded ctermbg=none
+  highlight EndOfBuffer ctermbg=none
+  highlight CursorLine term=underline ctermbg=none cterm=underline 
+  highlight CursorLineNr ctermbg=none cterm=underline ctermfg=6
+  highlight Comment ctermfg=6
+  highlight SignColumn guibg=none ctermbg=none
+  highlight StatusLine ctermbg=5 guibg=5
 ]])
 
 vim.cmd([[

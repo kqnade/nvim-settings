@@ -17,4 +17,4 @@ vim.keymap.set('i', '<C-j>', '<C-o>j',  {noremap=true, silent=true})
 vim.keymap.set('i', '<C-k>', '<C-o>k',  {noremap=true, silent=true})
 vim.keymap.set('i', '<C-l>', '<C-o>l',  {noremap=true, silent=true})
 
-
+vim.keymap.set('n', '<F8>', ':TagbarToggle<CR>', {noremap=true, silent=true})
