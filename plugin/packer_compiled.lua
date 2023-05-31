@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["coc-cl"] = {
+    loaded = true,
+    path = "/home/k4nade/.local/share/nvim/site/pack/packer/start/coc-cl",
+    url = "https://github.com/UltiRequiem/coc-cl"
+  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/home/k4nade/.local/share/nvim/site/pack/packer/start/coc.nvim",

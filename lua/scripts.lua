@@ -45,16 +45,3 @@ vim.cmd([[
   augroup END
 ]])
 
-vim.cmd([[
-  func! s:gruvbit_setup() abort
-    hi Comment gui=italic cterm=italic
-    hi Statement gui=bold cterm=bold
-    hi VertSplit guibg=NONE ctermbg=NONE
-  endfunc
-
-  augroup colorscheme_change | au!
-    au ColorScheme gruvbit call s:gruvbit_setup()
-    au ColorScheme gruvbit hi Comment gui=italic cterm=italic
-    au ColorScheme gruvbit call s:gruvbit_setup()
-  augroup END
-]])

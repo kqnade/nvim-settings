@@ -1,4 +1,4 @@
-require('autoC')
+require('coc')
 require('settings')
 require('keymaps')
 require('plugins')
