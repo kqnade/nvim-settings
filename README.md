@@ -1,2 +1,2 @@
 # this repo is not my settings now!
-[My new repo](https://gitlab.com/kqnade/neovim-settings)
+[My new repo in gitlab.com](https://gitlab.com/k4nade/neovim-settings)
